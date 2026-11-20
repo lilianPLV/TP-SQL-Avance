@@ -1,5 +1,5 @@
 EXPLAIN ANALYZE 
-SELECT id, client_id, date_commande, montant_total, statut 
+SELECT * 
 FROM commandes 
 WHERE YEAR(date_commande) = 2026 
 ORDER BY montant_total 
